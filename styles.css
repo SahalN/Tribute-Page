@@ -1,0 +1,25 @@
+/** @format */
+
+* {
+}
+
+html {
+  text-align: center;
+}
+
+.thorfinn {
+  width: 75%;
+}
+
+.text-desc {
+  font-family: "Poppins";
+  color: white;
+}
+
+.container-2 {
+  background-color: black;
+  padding: 2rem;
+}
+
+footer {
+}
