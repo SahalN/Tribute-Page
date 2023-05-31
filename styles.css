@@ -1,10 +1,14 @@
 /** @format */
 
 * {
+  box-sizing: inherit;
+  margin: 0;
 }
 
 html {
   text-align: center;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 .thorfinn {
@@ -15,11 +19,25 @@ html {
   font-family: "Poppins";
   color: white;
 }
+.audio {
+  position: relative;
+  bottom: 150px;
+  width: 50%;
+}
 
-.container-2 {
+.big-text {
+  text-align: left;
+}
+main {
   background-color: black;
-  padding: 2rem;
+}
+
+.below-header {
+  text-align: center;
+  padding: 3rem;
+  margin: 0;
 }
 
 footer {
+  background-color: black;
 }
