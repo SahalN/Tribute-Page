@@ -1,16 +1,21 @@
 /** @format */
 
 * {
-  box-sizing: inherit;
   margin: 0;
 }
 
 html {
   text-align: center;
-  box-sizing: border-box;
-  height: 100%;
 }
-
+header {
+  height: 100%;
+  width: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
 .thorfinn {
   width: 75%;
 }
@@ -21,23 +26,18 @@ html {
 }
 .audio {
   position: relative;
-  bottom: 150px;
+  bottom: -150px;
+  left: 170px;
   width: 50%;
 }
 
 .big-text {
   text-align: left;
 }
-main {
-  background-color: black;
-}
 
 .below-header {
-  text-align: center;
-  padding: 3rem;
-  margin: 0;
-}
-
-footer {
   background-color: black;
+  text-align: center;
+  padding: 3% 15%;
+  margin: 0;
 }
