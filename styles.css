@@ -25,10 +25,9 @@ main {
   color: white;
 }
 .audio {
-  position: relative;
-  bottom: -150px;
-  left: 170px;
+  position: fixed;
   width: 50%;
+  height: 50%;
 }
 
 .big-text {
